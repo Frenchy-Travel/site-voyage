@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+<link rel="stylesheet" href="/assets/styles.css">
+    </head>
+    <body>
+    <header>
+    <h1>{{ title }}</h1>
+<nav>
+<ul>
+<li><a href="/">Accueil</a></li>
+<li><a href="/articles">Articles</a></li>
+<li><a href="/photos">Photos & Vidéos</a></li>
+<li><a href="/conseils">Conseils</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+{{ content | safe }}
+</main>
+<footer>
+<p>&copy; 2025 Votre Nom. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
