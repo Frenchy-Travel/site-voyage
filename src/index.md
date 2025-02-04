@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.njk
 title: Accueil
 ---
 # Bienvenue sur notre site de voyage !

@@ -13,6 +13,8 @@
     "@11ty/eleventy": "^3.0.0"
   },
   "dependencies": {
+    "eleventy-plugin-safe-external-links": "^0.1.5",
+    "nunjucks": "^3.2.4",
     "tailwindcss": "^4.0.3"
   }
 }
